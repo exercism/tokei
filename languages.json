@@ -1148,6 +1148,12 @@
       "mime": ["text/x-python"],
       "extensions": ["py", "pyw"]
     },
+    "Pyret": {
+      "line_comment": ["#"],
+      "multi_line_comments": ["#|", "|#"],
+      "quotes": [["\\\"", "\\\""], ["'", "'"]],
+      "extensions": ["arr"]
+    },
     "Q": {
       "name": "Q",
       "nested": true,

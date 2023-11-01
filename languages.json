@@ -1647,6 +1647,12 @@
       "multi_line_comments": [["(*", "*)"]],
       "extensions": ["nb", "wl"]
     },
+    "Wren": {
+      "line_comment": ["//"],
+      "multi_line_comments": [["/*", "*/"]],
+      "quotes": [["\\\"", "\\\""]],
+      "extensions": ["wren"]
+    },
     "Xaml": {
       "name": "XAML",
       "multi_line_comments": [["<!--", "-->"]],

@@ -8,7 +8,7 @@
 "Hello, " var, foo -- line ending comment
 
 \ here's another single line comment
-"!" var, bar \ line ending comment
+"!" var, bar \ a different line ending comment
 
 : hello   \ s --
   foo @ s:<+ 

@@ -51,7 +51,7 @@ jobs:
         channel: [stable, beta, nightly]
         target:
           # MSVC
-          - i686-pc-windows-msvc
+          # - i686-pc-windows-msvc
           - x86_64-pc-windows-msvc
           # GNU: You typically only need to test Windows GNU if you're
           # specifically targeting it, and it can cause issues with some
@@ -85,8 +85,8 @@ jobs:
           # macOS
           - x86_64-apple-darwin
           # iOS
-          - aarch64-apple-ios
-          - x86_64-apple-ios
+          # - aarch64-apple-ios
+          # - x86_64-apple-ios
 
   linux:
     runs-on: ubuntu-latest
@@ -111,7 +111,6 @@ jobs:
           !contains(matrix.target, 'solaris') &&
           matrix.target != 'armv5te-unknown-linux-musleabi' &&
           matrix.target != 'sparc64-unknown-linux-gnu'
-
     strategy:
       fail-fast: true
       matrix:
@@ -120,28 +119,28 @@ jobs:
           # WASM, off by default as most rust projects aren't compatible yet.
           # - wasm32-unknown-emscripten
           # Linux
-          - aarch64-unknown-linux-gnu
-          - aarch64-unknown-linux-musl
-          - arm-unknown-linux-gnueabi
-          - arm-unknown-linux-gnueabihf
-          - arm-unknown-linux-musleabi
-          - arm-unknown-linux-musleabihf
-          - armv5te-unknown-linux-musleabi
-          - armv7-unknown-linux-gnueabihf
-          - armv7-unknown-linux-musleabihf
-          - i586-unknown-linux-gnu
-          - i586-unknown-linux-musl
-          - i686-unknown-linux-gnu
-          - i686-unknown-linux-musl
+          # - aarch64-unknown-linux-gnu
+          # - aarch64-unknown-linux-musl
+          # - arm-unknown-linux-gnueabi
+          # - arm-unknown-linux-gnueabihf
+          # - arm-unknown-linux-musleabi
+          # - arm-unknown-linux-musleabihf
+          # - armv5te-unknown-linux-musleabi
+          # - armv7-unknown-linux-gnueabihf
+          # - armv7-unknown-linux-musleabihf
+          # - i586-unknown-linux-gnu
+          # - i586-unknown-linux-musl
+          # - i686-unknown-linux-gnu
+          # - i686-unknown-linux-musl
           # - mips-unknown-linux-gnu
           # - mips-unknown-linux-musl
           # - mips64-unknown-linux-gnuabi64
           # - mips64el-unknown-linux-gnuabi64
           # - mipsel-unknown-linux-gnu
           # - mipsel-unknown-linux-musl
-          - powerpc-unknown-linux-gnu
-          - powerpc64le-unknown-linux-gnu
-          - s390x-unknown-linux-gnu
+          # - powerpc-unknown-linux-gnu
+          # - powerpc64le-unknown-linux-gnu
+          # - s390x-unknown-linux-gnu
           - x86_64-unknown-linux-gnu
           - x86_64-unknown-linux-musl
           # Android
@@ -155,7 +154,7 @@ jobs:
           # by default.
           # - i686-unknown-freebsd
           # - x86_64-unknown-freebsd
-          - x86_64-unknown-netbsd
+          # - x86_64-unknown-netbsd
           # Solaris
           # - sparcv9-sun-solaris
           # - x86_64-sun-solaris

@@ -71,7 +71,7 @@ Tokei is a program that displays statistics about your code. Tokei will show the
   - [Dockerized version](#dockerized-version)
   - [Supported Languages](#supported-languages)
   - [Common issues](#common-issues)
-    - [Tokei says I have a lot of D code, but I know there is no D code](#tokei-says-i-have-a-lot-of-d-code-but-i-know-there-is-no-d-code)
+    - [Tokei says I have a lot of D code, but I know there is no D code!](#tokei-says-i-have-a-lot-of-d-code-but-i-know-there-is-no-d-code)
   - [Canonical Source](#canonical-source)
   - [Related Tools](#related-tools)
   - [Copyright and License](#copyright-and-license)

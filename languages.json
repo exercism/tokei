@@ -1,9 +1,10 @@
 {
   "languages": {
-    "8th": {
-      "name": "eighth",
-      "line_comment": ["\\\\", "--"],
+    "_8th": {
+      "name": "8th",
+      "line_comment": ["\\\\ ", "-- "],
       "multi_line_comments": [["(*", "*)"]],
+      "nested": true,
       "quotes": [["\\\"", "\\\""]],
       "extensions": ["8th"]
     },

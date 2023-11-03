@@ -1,7 +1,8 @@
-// 16 lines 7 code 5 comments 4 blanks
+// 17 lines 7 code 6 comments 4 blanks
 
 /* multiline comments
   /* can be nested */
+ * Right, tokei?
  */
 
 // here's a single line comment

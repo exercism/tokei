@@ -10,7 +10,7 @@ on:
 
 jobs:
   linux:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     env:
       platform: linux-musl
       channel: stable

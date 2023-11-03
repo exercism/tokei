@@ -9,21 +9,19 @@ on:
       - master
 
 jobs:
-  linux:
+  build_and_test:
     runs-on: ubuntu-22.04
     env:
       platform: linux-musl
       channel: stable
       target: x86_64-unknown-linux-musl
     steps:
-      - uses: actions/checkout@v3
-      - uses: XAMPPRocky/get-github-release@v1
-        with:
-          owner: rust-embedded
-          repo: cross
-          matches: ${{ env.platform }}
-          token: ${{ secrets.GITHUB_TOKEN }}
-      - run: chmod +x /tmp/cross
+      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
+      - run: |
+          gh release download --repo cross-rs/cross --pattern '*linux-musl*'
+          tar -xvzf cross-x86_64-unknown-linux-musl.tar.gz
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: ci/set_rust_version.bash $channel $target
-      - run: ci/build.bash /tmp/cross $target
-      - run: ci/test.bash /tmp/cross $target
+      - run: ci/build.bash $PWD/cross $target
+      - run: ci/test.bash $PWD/cross $target

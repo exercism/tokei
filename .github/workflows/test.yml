@@ -17,6 +17,15 @@ jobs:
       target: x86_64-unknown-linux-musl
     steps:
       - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
+      - uses: actions/cache@v3
+        with:
+          path: |
+            ~/.cargo/bin/
+            ~/.cargo/registry/index/
+            ~/.cargo/registry/cache/
+            ~/.cargo/git/db/
+            target/
+          key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
       - run: |
           gh release download --repo cross-rs/cross --pattern '*linux-musl*'
           tar -xvzf cross-x86_64-unknown-linux-musl.tar.gz

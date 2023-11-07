@@ -1,5 +1,13 @@
 {
   "languages": {
+    "_8th": {
+      "name": "8th",
+      "line_comment": ["\\\\ ", "-- "],
+      "multi_line_comments": [["(*", "*)"]],
+      "nested": true,
+      "quotes": [["\\\"", "\\\""]],
+      "extensions": ["8th"]
+    },
     "Abap": {
       "name": "ABAP",
       "line_comment": ["*", "\\\""],
@@ -1140,6 +1148,13 @@
       "multi_line_comments": [["{-", "-}"]],
       "extensions": ["purs"]
     },
+    "Pyret": {
+      "line_comment": ["#"],
+      "multi_line_comments": ["#|", "|#"],
+      "quotes": [["\\\"", "\\\""], ["'", "'"]],
+      "extensions": ["arr"],
+      "nested": true
+    },
     "Python": {
       "line_comment": ["#"],
       "doc_quotes": [["\\\"\\\"\\\"", "\\\"\\\"\\\""], ["'''", "'''"]],
@@ -1646,6 +1661,13 @@
       "quotes": [["\\\"", "\\\""]],
       "multi_line_comments": [["(*", "*)"]],
       "extensions": ["nb", "wl"]
+    },
+    "Wren": {
+      "line_comment": ["//"],
+      "multi_line_comments": [["/*", "*/"]],
+      "nested": true,
+      "quotes": [["\\\"", "\\\""]],
+      "extensions": ["wren"]
     },
     "Xaml": {
       "name": "XAML",

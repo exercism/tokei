@@ -1,4 +1,4 @@
-; 15 lines 4 code 5 comments 7 blanks
+; 15 lines 4 code 5 comments 6 blanks
 
 (defmodule my-code
   (export (hello-world 0)))

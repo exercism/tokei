@@ -842,6 +842,7 @@
       "name": "LFE",
       "line_comment": [";"],
       "multi_line_comments": [["#|", "|#"]],
+      "quotes": [["\\\"", "\\\""], ["'", "'"]],
       "nested": true,
       "extensions": ["lfe"]
     },

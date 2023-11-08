@@ -1150,7 +1150,7 @@
     },
     "Pyret": {
       "line_comment": ["#"],
-      "multi_line_comments": ["#|", "|#"],
+      "multi_line_comments": [["#|", "|#"]],
       "quotes": [["\\\"", "\\\""], ["'", "'"]],
       "extensions": ["arr"],
       "nested": true

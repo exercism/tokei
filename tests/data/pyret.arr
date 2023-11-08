@@ -1,4 +1,4 @@
-# 22 lines 8 code 3 comments 6 blanks
+# 22 lines 9 code 8 comments 5 blanks
 
 fun single-quote():
   doc: "this is a documentation string"

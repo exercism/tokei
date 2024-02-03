@@ -1,7 +1,7 @@
 Red [] ; 20 lines 10 code 6 comments 4 blanks
 
 x: 1 ; line comment 1
-x: 3   ;-- line comment 2
+x: 2   ;-- line comment 2
 x: 3		;@@ line comment 3
 
 comment ['this

@@ -1,4 +1,4 @@
-NB. 27 lines 14 code 7 comments 6 blanks
+NB. 27 lines 16 code 4 comments 7 blanks
 
 foo=: 5 NB. uncounted comment
 
@@ -9,19 +9,19 @@ ed=: 0 : 0
 explicit defined string
 )
 
-ed2=: 0 :0
-explicit defined string in formated code
+ed2=: 3 :0
+ +: y NB. uncounted comment inside explicit definition
 )
 
 dd1=: {{)n
 explicit defined string using direct definitions
 }}
 
-Note Some
-multi
-line
-comment
+Note 
+multi line comment with the `Note` keyword 
+cannot be identified at the moment
 )
-dd2=: {{)n
-if the `}}` is not in the first column
-}}
+
+NB. another single line comment
+NB. consecutive comments
+dd2=: {{ x * y }} + 8 

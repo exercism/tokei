@@ -729,13 +729,8 @@
     "J":{
       "name": "J",
       "line_comment": ["NB."],
-      "multi_line_comments": ["Note ", "\\\n)"],
-      "quotes": [
-        ["'", "'"],
-        ["{{)n", "\\\n}}"],
-        ["0 : 0", "\\\n)"],
-        ["0 :0", "\\\n)"]
-      ],
+      "quotes": [["'", "'"]],
+      "verbatim_quotes": [["'", "'"]],
       "extensions": ["ijs", "jproj"]
     },
     "Jai": {

@@ -184,8 +184,6 @@
     },
     "Cairo": {
       "line_comment": ["//"],
-      "nested": true,
-      "important_syntax": ["///", "//!"],
       "extensions": ["cairo"],
       "quotes": [["\\\"", "\\\""], ["'", "'"]]
     },

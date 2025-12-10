@@ -1311,11 +1311,15 @@
     },
     "Odin": {
       "extensions": ["odin"],
-      "line_comment": ["//"],
+      "line_comment": ["//", "///"],
       "multi_line_comments": [["/*", "*/"]],
+      "nested": true,
       "quotes": [
         ["\\\"", "\\\""],
         ["'", "'"]
+      ],
+      "verbatim_quotes": [
+      	["`", "`"]
       ]
     },
     "OpenScad": {

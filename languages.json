@@ -1680,7 +1680,11 @@
     "ReScript": {
       "line_comment": ["//"],
       "multi_line_comments": [["/*", "*/"]],
-      "quotes": [["\\\"", "\\\""]],
+      "quotes": [
+        ["\\\"", "\\\""],
+        ["'", "'"],
+        ["`", "`"]
+      ],
       "extensions": ["res", "resi"]
     },
     "ReStructuredText": {

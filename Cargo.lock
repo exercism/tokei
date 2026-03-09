@@ -1564,7 +1564,7 @@ dependencies = [
 
 [[package]]
 name = "tokei"
-version = "13.0.0-alpha.10"
+version = "13.0.0-alpha.11"
 dependencies = [
  "aho-corasick",
  "arbitrary",

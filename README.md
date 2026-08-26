@@ -530,7 +530,6 @@ Pacman's makepkg
 Pan
 Pascal
 Perl
-Perl6
 Pest
 Smalltalk
 Phix

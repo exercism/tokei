@@ -378,8 +378,8 @@ Cabal
 Cairo
 Cassius
 Ceylon
-CHeader
 Chapel
+CHeader
 Circom
 Clojure
 ClojureC
@@ -411,6 +411,7 @@ DreamMaker
 Dust
 Ebuild
 EdgeDB
+EdgeDB Schema Definition
 EdgeQL
 Edn
 Elisp
@@ -420,7 +421,6 @@ Elvish
 EmacsDevEnv
 Emojicode
 Erlang
-EdgeDB Schema Definition
 Euphoria
 Factor
 FEN
@@ -479,8 +479,8 @@ Julius
 Jupyter Notebooks
 K
 KakouneScript
-Kotlin
 Korn shell
+Kotlin
 KV Language
 LALRPOP
 Lean
@@ -498,9 +498,9 @@ Lua
 Lucius
 M4
 Madlang
-Max
 Makefile
 Markdown
+Max
 Meson
 Metal Shading Language
 Mint
@@ -521,8 +521,8 @@ ObjectiveCpp
 OCaml
 Odin
 Open Policy Agent
-OpenSCAD
 OpenQASM
+OpenSCAD
 OpenType Feature File
 Org
 Oz
@@ -531,7 +531,6 @@ Pan
 Pascal
 Perl
 Pest
-Smalltalk
 Phix
 Php
 Poke
@@ -575,6 +574,7 @@ Scons
 Sh
 ShaderLab
 Slang
+Smalltalk
 Sml
 Snakemake
 Solidity

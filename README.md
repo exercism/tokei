@@ -343,22 +343,23 @@ request. Languages are defined in [`languages.json`](./languages.json), and you 
 read how to add and test your language in our [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 ```
+.NET Resource
 8th
-Abap
+ABAP
 ABNF
 ActionScript
 Ada
 Agda
 Alex
 Alloy
+Apache Velocity
 Arduino C++
 Arturo
 AsciiDoc
-Asn1
-Asp
-AspNet
+ASN.1
+ASP
+ASP.NET
 Assembly
-AssemblyGAS
 Astro
 ATS
 Autoconf
@@ -367,83 +368,84 @@ Autoit
 Automake
 AWK
 Ballerina
-Bash
+BASH
 Batch
 Bazel
 Bean
 Bitbake
 BrightScript
 C
+C Header
+C Shell
+C#
+C++
+C++ Header
 Cabal
 Cairo
 Cassius
 Ceylon
 Chapel
-CHeader
 Circom
 Clojure
 ClojureC
 ClojureScript
 CMake
-Cobol
+COBOL
 CodeQL
 CoffeeScript
 Cogent
 ColdFusion
-ColdFusionScript
+ColdFusion CFScript
+Common Lisp
 Coq
-Cpp
-CppHeader
 Crystal
-CSharp
-CShell
-Css
-Cuda
+CSS
+CUDA
 Cython
 D
 DAML
 Dart
-DeviceTree
+Device Tree
 Dhall
 Dockerfile
-DotNetResource
-DreamMaker
-Dust
+Dream Maker
+Dust.js
 Ebuild
 EdgeDB
 EdgeDB Schema Definition
 EdgeQL
 Edn
-Elisp
 Elixir
 Elm
 Elvish
-EmacsDevEnv
+Emacs Dev Env
+Emacs Lisp
 Emojicode
 Erlang
 Euphoria
+F#
+F*
 Factor
 FEN
 Fennel
 Fish
-FlatBuffers
-ForgeConfig
+FlatBuffers Schema
+Forge Config
 Forth
-FortranLegacy
-FortranModern
+FORTRAN Legacy
+FORTRAN Modern
 FreeMarker
-FSharp
-Fstar
 Futhark
-GDB
-GdScript
-Gherkin
+GDB Script
+GDScript
+Gherkin (Cucumber)
 Gleam
-Glsl
+GLSL
 Gml
+GNU Style Assembly
 Go
 Go HTML
-Graphql
+GraphQL
 Groovy
 Gwion
 Haml
@@ -452,44 +454,43 @@ Handlebars
 Happy
 Haskell
 Haxe
-Hcl
+HCL
 Headache
-Hex
+HEX
 HICAD
-Hlsl
+HLSL
 HolyC
-Html
+HTML
 Hy
 Idris
-Ini
-IntelHex
+INI
+Intel HEX
 Isabelle
 J
-Jai
+JAI
 Janet
 Java
 JavaScript
 Jinja2
-Jq
-Json
+jq
+JSON
 Jsonnet
-Jsx
+JSX
 Julia
 Julius
 Jupyter Notebooks
 K
-KakouneScript
+Kakoune script
 Korn shell
 Kotlin
 KV Language
 LALRPOP
+LD Script
 Lean
-Less
+LESS
 LFE
 Lingua Franca
-LinkerScript
 Liquid
-Lisp
 LiveScript
 LLVM
 Logtalk
@@ -505,19 +506,19 @@ Meson
 Metal Shading Language
 Mint
 Mlatu
-ModuleDef
+Module-Definition
 MoonBit
 MoonScript
-MsBuild
+MSBuild
 Mustache
 Nextflow
 Nim
 Nix
-NotQuitePerl
-NuGetConfig
+Not Quite Perl
+NuGet Config
 Nushell
-ObjectiveC
-ObjectiveCpp
+Objective-C
+Objective-C++
 OCaml
 Odin
 Open Policy Agent
@@ -532,25 +533,26 @@ Pascal
 Perl
 Pest
 Phix
-Php
+PHP
+Plain Text
 Poke
 Polly
 Pony
-PostCss
+PostCSS
 PowerShell
 Processing
 Prolog
-Protobuf
+Protocol Buffers
 PRQL
-PSL
+PSL Assertion
 Pug
 Puppet
 PureScript
 Pyret
 Python
 Q
-Qcl
-Qml
+QCL
+QML
 R
 Racket
 Rakefile
@@ -558,47 +560,46 @@ Raku
 Razor
 Red
 Redscript
-Renpy
+Ren'Py
 ReScript
 ReStructuredText
 Roc
-RON
-RPMSpecfile
+RPM Specfile
 Ruby
-RubyHtml
+Ruby HTML
 Rust
+Rusty Object Notation
 Sass
 Scala
 Scheme
 Scons
-Sh
 ShaderLab
+Shell
 Slang
 Smalltalk
-Sml
 Snakemake
 Solidity
-SpecmanE
-Spice
+Specman e
+Spice Netlist
 SQF
-Sql
-SRecode
+SQL
+SRecode Template
 Stan
-Stratego
+Standard ML (SML)
+Stratego/XT
 Stylus
 Svelte
-Svg
+SVG
 Swift
-Swig
+SWIG
 SystemVerilog
-Tcl
+TCL
 Tera
-Tex
-Text
+TeX
 The WenYan Programming Language
 Thrift
-Toml
-Tsx
+TOML
+TSX
 TTCN-3
 Twig
 TypeScript
@@ -606,37 +607,36 @@ Typst
 Uiua
 UMPL
 Unison
-UnrealDeveloperMarkdown
-UnrealPlugin
-UnrealProject
-UnrealScript
-UnrealShader
-UnrealShaderHeader
-UrWeb
-UrWebProject
+Unreal Markdown
+Unreal Plugin
+Unreal Project
+Unreal Script
+Unreal Shader
+Unreal Shader Header
+Ur/Web
+Ur/Web Project
 Vala
 VB6
 VBScript
-Velocity
 Verilog
-VerilogArgsFile
-Vhdl
-VimScript
-VisualBasic
-VisualStudioProject
-VisualStudioSolution
+Verilog Args File
+VHDL
+Vim Script
+Visual Basic
+Visual Studio Project
+Visual Studio Solution
 Vue
 WebAssembly
 WebGPU Shader Language
 Wolfram
 Wren
-Xaml
-XcodeConfig
-Xml
+XAML
+Xcode Config
+XML
 XSL
 Xtend
-Yaml
-YamlScript
+YAML
+YAMLScript
 ZenCode
 Zig
 ZoKrates

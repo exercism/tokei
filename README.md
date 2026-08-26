@@ -345,19 +345,25 @@ read how to add and test your language in our [CONTRIBUTING.md](./CONTRIBUTING.m
 ```
 8th
 Abap
+ABNF
 ActionScript
 Ada
 Agda
 Alex
 Alloy
+Arduino C++
+Arturo
+AsciiDoc
 Asn1
 Asp
 AspNet
 Assembly
 AssemblyGAS
+Astro
 ATS
 Autoconf
 AutoHotKey
+Autoit
 Automake
 AWK
 Ballerina
@@ -373,11 +379,14 @@ Cairo
 Cassius
 Ceylon
 CHeader
+Chapel
+Circom
 Clojure
 ClojureC
 ClojureScript
 CMake
 Cobol
+CodeQL
 CoffeeScript
 Cogent
 ColdFusion
@@ -402,6 +411,7 @@ DreamMaker
 Dust
 Ebuild
 EdgeDB
+EdgeQL
 Edn
 Elisp
 Elixir
@@ -410,9 +420,11 @@ Elvish
 EmacsDevEnv
 Emojicode
 Erlang
+EdgeDB Schema Definition
 Euphoria
 Factor
 FEN
+Fennel
 Fish
 FlatBuffers
 ForgeConfig
@@ -422,15 +434,19 @@ FortranModern
 FreeMarker
 FSharp
 Fstar
+Futhark
 GDB
 GdScript
 Gherkin
 Gleam
 Glsl
+Gml
 Go
+Go HTML
 Graphql
 Groovy
 Gwion
+Haml
 Hamlet
 Handlebars
 Happy
@@ -438,7 +454,9 @@ Hare
 Haskell
 Haxe
 Hcl
+Headache
 Hex
+HICAD
 Hlsl
 HolyC
 Html
@@ -447,38 +465,53 @@ Idris
 Ini
 IntelHex
 Isabelle
+J
 Jai
 Janet
 Java
 JavaScript
+Jinja2
 Jq
 Json
+Jsonnet
 Jsx
 Julia
 Julius
+Jupyter Notebooks
+K
 KakouneScript
 Kotlin
+Korn shell
+KV Language
+LALRPOP
 Lean
 Less
+LFE
 Lingua Franca
 LinkerScript
 Liquid
 Lisp
+LiveScript
 LLVM
 Logtalk
+LOLCODE
 Lua
 Lucius
+M4
 Madlang
 Max
 Makefile
 Markdown
 Meson
+Metal Shading Language
 Mint
 Mlatu
 ModuleDef
+MoonBit
 MoonScript
 MsBuild
 Mustache
+Nextflow
 Nim
 Nix
 NotQuitePerl
@@ -488,10 +521,14 @@ ObjectiveC
 ObjectiveCpp
 OCaml
 Odin
+Open Policy Agent
 OpenSCAD
 OpenQASM
+OpenType Feature File
 Org
 Oz
+Pacman's makepkg
+Pan
 Pascal
 Perl
 Perl6
@@ -507,17 +544,25 @@ PowerShell
 Processing
 Prolog
 Protobuf
+PRQL
 PSL
+Pug
+Puppet
 PureScript
 Pyret
 Python
+Q
 Qcl
 Qml
 R
 Racket
 Rakefile
+Raku
 Razor
+Red
+Redscript
 Renpy
+ReScript
 ReStructuredText
 Roc
 RON
@@ -533,26 +578,36 @@ Sh
 ShaderLab
 Slang
 Sml
+Snakemake
 Solidity
 SpecmanE
 Spice
+SQF
 Sql
 SRecode
+Stan
 Stratego
+Stylus
 Svelte
 Svg
 Swift
 Swig
 SystemVerilog
 Tcl
+Tera
 Tex
 Text
+The WenYan Programming Language
 Thrift
 Toml
 Tsx
+TTCN-3
 Twig
 TypeScript
+Typst
+Uiua
 UMPL
+Unison
 UnrealDeveloperMarkdown
 UnrealPlugin
 UnrealProject
@@ -574,6 +629,7 @@ VisualStudioProject
 VisualStudioSolution
 Vue
 WebAssembly
+WebGPU Shader Language
 Wolfram
 Wren
 Xaml

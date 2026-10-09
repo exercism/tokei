@@ -397,7 +397,6 @@ Cogent
 ColdFusion
 ColdFusion CFScript
 Common Lisp
-Coq
 Crystal
 CSS
 CUDA
@@ -615,6 +614,7 @@ Unreal Shader
 Unreal Shader Header
 Ur/Web
 Ur/Web Project
+V
 Vala
 VB6
 VBScript

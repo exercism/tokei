@@ -319,11 +319,6 @@
       "quotes": [["\\\"", "\\\""]],
       "extensions": ["cfc"]
     },
-    "Coq": {
-      "quotes": [["\\\"", "\\\""]],
-      "multi_line_comments": [["(*", "*)"]],
-      "extensions": ["v"]
-    },
     "Cpp": {
       "name": "C++",
       "line_comment": ["//"],
@@ -2100,6 +2095,13 @@
       "name": "Ur/Web Project",
       "line_comment": ["#"],
       "extensions": ["urp"]
+    },
+    "V": {
+      "line_comment": ["//"],
+      "multi_line_comments": [["/*", "*/"]],
+      "nested": true,
+      "quotes": [["\\\"", "\\\""], ["'", "'"]],
+      "extensions": ["v"]
     },
     "Vala": {
       "line_comment": ["//"],

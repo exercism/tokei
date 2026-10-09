@@ -319,11 +319,6 @@
       "quotes": [["\\\"", "\\\""]],
       "extensions": ["cfc"]
     },
-    "Coq": {
-      "quotes": [["\\\"", "\\\""]],
-      "multi_line_comments": [["(*", "*)"]],
-      "extensions": ["v"]
-    },
     "Cpp": {
       "name": "C++",
       "line_comment": ["//"],

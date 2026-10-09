@@ -397,7 +397,6 @@ Cogent
 ColdFusion
 ColdFusion CFScript
 Common Lisp
-Coq
 Crystal
 CSS
 CUDA

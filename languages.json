@@ -2101,6 +2101,13 @@
       "line_comment": ["#"],
       "extensions": ["urp"]
     },
+    "V": {
+      "line_comment": ["//"],
+      "multi_line_comments": [["/*", "*/"]],
+      "nested": true,
+      "quotes": [["\\\"", "\\\""], ["'", "'"]],
+      "extensions": ["v"]
+    },
     "Vala": {
       "line_comment": ["//"],
       "multi_line_comments": [["/*", "*/"]],

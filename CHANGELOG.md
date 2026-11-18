@@ -6,6 +6,96 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [16.0.0](https://github.com/exercism/tokei/compare/v15.0.0...v16.0.0) - 2026-11-18
+
+### Added
+
+- --files argument now sorts alphabetically ([#1059](https://github.com/exercism/tokei/pull/1059))
+- add support for LALRPOP ([#1077](https://github.com/exercism/tokei/pull/1077))
+
+### Fixed
+
+- read hidden from config file ([#1093](https://github.com/exercism/tokei/pull/1093))
+- fixed language names not showing when in Light mode (light background ([#1048](https://github.com/exercism/tokei/pull/1048))
+
+### Other
+
+- Merge upstream XAMPPRocky/tokei master (v15.0.0) ([#47](https://github.com/exercism/tokei/pull/47))
+- Add V support ([#46](https://github.com/exercism/tokei/pull/46))
+- release v13.0.0-alpha.21 ([#45](https://github.com/exercism/tokei/pull/45))
+- release v13.0.0-alpha.20 ([#44](https://github.com/exercism/tokei/pull/44))
+- release v13.0.0-alpha.19 ([#43](https://github.com/exercism/tokei/pull/43))
+- release v13.0.0-alpha.18 ([#42](https://github.com/exercism/tokei/pull/42))
+- release v13.0.0-alpha.17 ([#41](https://github.com/exercism/tokei/pull/41))
+- release v13.0.0-alpha.16 ([#40](https://github.com/exercism/tokei/pull/40))
+- release v13.0.0-alpha.15 ([#39](https://github.com/exercism/tokei/pull/39))
+- release v13.0.0-alpha.13 ([#38](https://github.com/exercism/tokei/pull/38))
+- release v13.0.0-alpha.13 ([#36](https://github.com/exercism/tokei/pull/36))
+- Update supported languages ([#37](https://github.com/exercism/tokei/pull/37))
+- release v13.0.0-alpha.12 ([#35](https://github.com/exercism/tokei/pull/35))
+- release v13.0.0-alpha.11 ([#34](https://github.com/exercism/tokei/pull/34))
+- release v13.0.0-alpha.10 ([#33](https://github.com/exercism/tokei/pull/33))
+- release v13.0.0-alpha.9 ([#32](https://github.com/exercism/tokei/pull/32))
+- release v13.0.0-alpha.8 ([#31](https://github.com/exercism/tokei/pull/31))
+- release v13.0.0-alpha.7 ([#30](https://github.com/exercism/tokei/pull/30))
+- release v13.0.0-alpha.6 ([#28](https://github.com/exercism/tokei/pull/28))
+- Update ReScript ([#29](https://github.com/exercism/tokei/pull/29))
+- release v13.0.0-alpha.5 ([#27](https://github.com/exercism/tokei/pull/27))
+- release v13.0.0-alpha.4 ([#26](https://github.com/exercism/tokei/pull/26))
+- release v13.0.0-alpha.3 ([#24](https://github.com/exercism/tokei/pull/24))
+- Updated the Language specification for Odin ([#25](https://github.com/exercism/tokei/pull/25))
+- Add uiua ([#22](https://github.com/exercism/tokei/pull/22))
+- Merge remote-tracking branch 'upstream/master'
+- Add ballerina ([#21](https://github.com/exercism/tokei/pull/21))
+- Add YAMLScript language support ([#20](https://github.com/exercism/tokei/pull/20))
+- release ([#15](https://github.com/exercism/tokei/pull/15))
+- Add support for Roc ([#19](https://github.com/exercism/tokei/pull/19))
+- Add Cairo language support ([#18](https://github.com/exercism/tokei/pull/18))
+- add phix support ([#16](https://github.com/exercism/tokei/pull/16))
+- Add J language support ([#17](https://github.com/exercism/tokei/pull/17))
+- Support MoonBit language. ([#1095](https://github.com/exercism/tokei/pull/1095))
+- Temporarily remove Hare
+- Support .pyi python file ([#1075](https://github.com/exercism/tokei/pull/1075))
+- Adding support for Snakemake ([#1045](https://github.com/exercism/tokei/pull/1045))
+- Add PRQL ([#1030](https://github.com/exercism/tokei/pull/1030))
+- Add lingua franca language ([#993](https://github.com/exercism/tokei/pull/993))
+- Add arch's PKGBUILD files ([#972](https://github.com/exercism/tokei/pull/972))
+- Add Hare support ([#971](https://github.com/exercism/tokei/pull/971))
+- GitHub Action to publish docker images ([#1096](https://github.com/exercism/tokei/pull/1096))
+- Support MoonBit language. ([#1095](https://github.com/exercism/tokei/pull/1095))
+- Add OpenSCAD ([#1097](https://github.com/exercism/tokei/pull/1097))
+- add jinja extension for Jinja2 ([#1083](https://github.com/exercism/tokei/pull/1083))
+- Temporarily remove Hare
+- Support .pyi python file ([#1075](https://github.com/exercism/tokei/pull/1075))
+- add luau extension to lua ([#1066](https://github.com/exercism/tokei/pull/1066))
+- Adding support for Snakemake ([#1045](https://github.com/exercism/tokei/pull/1045))
+- Add Janet to languages.json ([#1042](https://github.com/exercism/tokei/pull/1042))
+- Add OpenQASM support ([#1041](https://github.com/exercism/tokei/pull/1041))
+- typst ([#1037](https://github.com/exercism/tokei/pull/1037))
+- Add the ZoKrates language ([#1035](https://github.com/exercism/tokei/pull/1035))
+- Add PRQL ([#1030](https://github.com/exercism/tokei/pull/1030))
+- remove refs ([#1006](https://github.com/exercism/tokei/pull/1006))
+- Add lingua franca language ([#993](https://github.com/exercism/tokei/pull/993))
+- Add support for Razor Components ([#992](https://github.com/exercism/tokei/pull/992))
+- Add arch's PKGBUILD files ([#972](https://github.com/exercism/tokei/pull/972))
+- Add Hare support ([#971](https://github.com/exercism/tokei/pull/971))
+- Add Max support ([#963](https://github.com/exercism/tokei/pull/963))
+- Add support for Chapel ([#960](https://github.com/exercism/tokei/pull/960))
+- Add language support for Slang ([#956](https://github.com/exercism/tokei/pull/956))
+- Update TypeScript language ([#953](https://github.com/exercism/tokei/pull/953))
+- Added support for Circom ([#949](https://github.com/exercism/tokei/pull/949))
+- link to earthly project ([#1078](https://github.com/exercism/tokei/pull/1078))
+- release ([#1070](https://github.com/exercism/tokei/pull/1070))
+- Add Arturo support ([#14](https://github.com/exercism/tokei/pull/14))
+- add euphoria ([#13](https://github.com/exercism/tokei/pull/13))
+- Add support for Red (exercism fork) ([#12](https://github.com/exercism/tokei/pull/12))
+- Adding Pharo to the existing Smalltalk languages ([#11](https://github.com/exercism/tokei/pull/11))
+- Add LFE support ([#6](https://github.com/exercism/tokei/pull/6))
+- Add pyret ([#10](https://github.com/exercism/tokei/pull/10))
+- add wren support ([#8](https://github.com/exercism/tokei/pull/8))
+- Add support for 8th ([#1](https://github.com/exercism/tokei/pull/1))
+- Update CI badge in README.md ([#4](https://github.com/exercism/tokei/pull/4))
+
 ## [15.0.0](https://github.com/XAMPPRocky/tokei/compare/v14.0.0...v15.0.0) - 2026-09-06
 
 ### Added

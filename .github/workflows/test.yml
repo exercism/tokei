@@ -37,8 +37,3 @@ jobs:
         run: ci/build.bash $PWD/cross $target
       - name: Run tests
         run: ci/test.bash $PWD/cross $target
-      - name: Trigger lines of code counter re-deploy
-        if: github.ref == 'refs/heads/master' && github.event_name == 'push'
-        run: ci/redeploy_lines_of_code_counter.bash
-        env:
-          GITHUB_TOKEN: ${{ secrets.WORKFLOWS_PAT }}
